@@ -1,0 +1,271 @@
+[
+  {
+    "category": "Manikűr",
+    "services": [
+      {
+        "name": "Gél lakk körömfestés - kezek",
+        "description": "A körmök lakkozása és megerősítése géllakkal.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Japán manikűr",
+        "description": "Természetes bázisú körömkezelések.",
+        "duration": "40m",
+        "price": 3000
+      },
+      {
+        "name": "Férfi manikűr",
+        "description": "A körmök kozmetikai kezelése.",
+        "duration": "40m",
+        "price": 4000
+      },
+      {
+        "name": "Gél lakk eltávolítás - kezek",
+        "description": "A géllakk eltávolítása acetonos leoldással.",
+        "duration": "30m",
+        "price": 3000
+      },
+      {
+        "name": "Paraffinos kézápolás",
+        "description": "A kezelés során meleg, hidratáló paraffinnal ápolják a kezeket.",
+        "duration": "45m",
+        "price": 3000
+      },
+      {
+        "name": "Körömgomba kezelés - kezek",
+        "description": "",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Gépi manikűr",
+        "description": "Kézápolás gépi eszközök segítségével.",
+        "duration": "45m",
+        "price": 3500
+      },
+      {
+        "name": "Gyógymanikűr",
+        "description": "A gyógymanikűr nemcsak a körmök esztétikai megjelenéséről szól, hanem a különböző körömbetegségek megelőzéséről és kezeléséről is.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Körömvágás a kezeken",
+        "description": "A körmök előkészítése, vágása, formázása, valamint igény szerint rövid masszázs, polírozás vagy hidratáló kezelés.",
+        "duration": "20m",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "category": "Körömépítés",
+    "services": [
+      {
+        "name": "Akrilzselé körömépítés",
+        "description": "Körömépítés akrilzselé segítségével, ami a zselé és porcelán anyagok keveréke.",
+        "duration": "2h - 3h 20m",
+        "price": {
+          "min": 6000,
+          "max": 10000
+        }
+      },
+      {
+        "name": "Porcelán körömépítés",
+        "description": "Körömépítés építő porcelán segítségével.",
+        "duration": "2h - 3h 20m",
+        "price": {
+          "min": 6000,
+          "max": 10000
+        }
+      },
+      {
+        "name": "Porcelán köröm töltése",
+        "description": "Porcelán műköröm töltése.",
+        "duration": "2h - 3h 20m",
+        "price": {
+          "min": 6000,
+          "max": 10000
+        }
+      },
+      {
+        "name": "Akrilzselé köröm töltése",
+        "description": "Akrilzselés műköröm töltése.",
+        "duration": "2h - 3h 20m",
+        "price": {
+          "min": 6000,
+          "max": 10000
+        }
+      },
+      {
+        "name": "Porcelán köröm eltávolítása",
+        "description": "A porcelán műköröm eltávolítása a körmökről.",
+        "duration": "40m",
+        "price": 3000
+      },
+      {
+        "name": "Zselés köröm eltávolítása",
+        "description": "Zselés műköröm eltávolítása a körmökről.",
+        "duration": "40m",
+        "price": 3000
+      }
+    ]
+  },
+  {
+    "category": "Női pedikűr",
+    "services": [
+      {
+        "name": "Gyógypedikűr nőknek",
+        "description": "A pedikűr során a láb egészsége van a fókuszban.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Körömszabályozás benőtt körmökre",
+        "description": "A benőtt körmök kiegyenesítése műanyag, fém vagy kombinált klipszek segítségével.",
+        "duration": "1h 30m",
+        "price": 10000
+      },
+      {
+        "name": "Tyúkszem eltávolítás",
+        "description": "A tyúkszemek eltávolítása a lábakról.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Benőtt köröm kezelése (tamponálás)",
+        "description": "Fertőtlenítőszerrel átitatott vatta elhelyezése a körömlemez alá a benőtt köröm területére.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Köröm protézis",
+        "description": "A körömlemez pótlása.",
+        "duration": "1h 30m",
+        "price": 10000
+      },
+      {
+        "name": "Gél lakkozás - lábak",
+        "description": "",
+        "duration": "30m",
+        "price": 3800
+      },
+      {
+        "name": "Paraffinos lábápolás",
+        "description": "",
+        "duration": "40m",
+        "price": 3000
+      },
+      {
+        "name": "Körömgomba kezelés - lábak",
+        "description": "",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Száraz pedikűr géllakkozással",
+        "description": "",
+        "duration": "1h 30m",
+        "price": 8800
+      },
+      {
+        "name": "Körömvágás a lábakon",
+        "description": "A körmök előkészítése, vágása, formázása, valamint igény szerint rövid masszázs, polírozás vagy hidratáló kezelés.",
+        "duration": "20m",
+        "price": 2000
+      },
+      {
+        "name": "Klasszikus pedikűr",
+        "description": "A lábak és körmök alapkezelése, amely tartalmazza a körmök formázását, a körömágybőr eltávolítását, a körömlemez polírozását és a lábak hidratálását.",
+        "duration": "1h 30m",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "category": "Férfi pedikűr",
+    "services": [
+      {
+        "name": "Száraz pedikűr férfiaknak",
+        "description": "Száraz lábkezelés professzionális készülékkel.",
+        "duration": "1h 30m",
+        "price": 5000
+      },
+      {
+        "name": "Gyógypedikűr férfiaknak",
+        "description": "A gyógypedikűr magában foglalja az egészséget javító komplex ápolást.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Tyúkszem eltávolítás",
+        "description": "A tyúkszemek eltávolítása a lábakról.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Benőtt köröm kezelése (tamponálás)",
+        "description": "Fertőtlenítőszerrel átitatott vatta elhelyezése a körömlemez alá a benőtt köröm területére.",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Köröm protézis",
+        "description": "Köröm pótlása.",
+        "duration": "1h 30m",
+        "price": 10000
+      },
+      {
+        "name": "Paraffinos lábápolás",
+        "description": "",
+        "duration": "40m",
+        "price": 3000
+      },
+      {
+        "name": "Körömgomba kezelése",
+        "description": "",
+        "duration": "1h 30m",
+        "price": 5500
+      },
+      {
+        "name": "Körömvágás a lábakon",
+        "description": "A körmök előkészítése, vágása, formázása, valamint igény szerint rövid masszázs, polírozás vagy hidratáló kezelés.",
+        "duration": "30m",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "category": "Konzultáció",
+    "services": [
+      {
+        "name": "Konzultáció",
+        "description": "",
+        "duration": "30m",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "category": "Pedikűr gyerekeknek",
+    "services": [
+      {
+        "name": "Pedikűr gyerekeknek",
+        "description": "Pedikűr gyerekeknek.",
+        "duration": "1h 30m",
+        "price": 5000
+      }
+    ]
+  },
+  {
+    "category": "Reflexzónás technikán alapuló láb és talpmasszás",
+    "services": [
+      {
+        "name": "Reflexzónás technikán alapuló láb és talpmasszás",
+        "description": "Reflexzónás technikán alapuló láb és talpmasszás élettani hatásai közé sorolható az energetizáló, fájdalomcsillapító, keringést javító, méregtelenítő, nyugtató, feszültségoldó hatás.",
+        "duration": "1h",
+        "price": 6500
+      }
+    ]
+  }
+]
