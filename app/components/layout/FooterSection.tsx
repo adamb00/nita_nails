@@ -21,7 +21,7 @@ const BANNER_IMAGES = [
 
 export default function FooterSection() {
   return (
-    <footer className='-mt-px h-screen w-screen snap-start shrink-0 overflow-y-auto bg-linear-to-b from-[#bf6d6c] to-[#2d1d1d] px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12 text-[#f8ece8]'>
+    <footer className='-mt-px h-screen w-screen snap-start shrink-0 overflow-y-auto bg-linear-to-b from-pastel to-brown px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12 text-white'>
       <div className='mx-auto w-full max-w-7xl'>
         <div className='mb-6 sm:mb-8 rounded-2xl  shadow-xl p-3 sm:p-4 md:p-5'>
           <p className='mb-3 text-[10px] sm:text-xs uppercase tracking-[0.18em] text-white'>
@@ -31,7 +31,7 @@ export default function FooterSection() {
             {BANNER_IMAGES.map((src, index) => (
               <div
                 key={src}
-                className='h-14 sm:h-16 md:h-20 rounded-lg bg-white border border-[#d8c7bf] flex items-center justify-center p-2'
+                className='h-14 sm:h-16 md:h-20 rounded-lg bg-white border border-pastel flex items-center justify-center p-2'
               >
                 <img
                   src={src}
@@ -47,20 +47,20 @@ export default function FooterSection() {
         <div className='grid w-full grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2'>
           <div className='space-y-5 sm:space-y-6'>
             <div>
-              <p className='text-[10px] sm:text-xs uppercase tracking-[0.2em] sm:tracking-[0.22em] text-[#dcbeb7]'>
+              <p className='text-[10px] sm:text-xs uppercase tracking-[0.2em] sm:tracking-[0.22em] text-white'>
                 Nita Nails
               </p>
               <h2 className='mt-2 font-vani text-3xl sm:text-4xl md:text-6xl leading-tight'>
                 Kapcsolat
               </h2>
-              <p className='mt-3 max-w-xl text-sm sm:text-base text-[#e6cdca]'>
+              <p className='mt-3 max-w-xl text-sm sm:text-base text-white'>
                 Foglalj időpontot online, vagy keress telefonon és e-mailben.
               </p>
             </div>
 
-            <div className='rounded-xl border border-[#5c3a3a] bg-[#3a2525] px-4 py-3'>
+            <div className='rounded-xl border border-brown bg-brown px-4 py-3'>
               <p className='text-sm font-semibold text-white'>Parkolás</p>
-              <p className='mt-1 text-sm text-[#e6cdca]'>
+              <p className='mt-1 text-sm text-white'>
                 Szemben és közvetlenül a ház előtt is lehet parkolni.
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function FooterSection() {
               >
                 E-mail: duhati91@gmail.com
               </a>
-              <p className='text-[#e6cdca]'>
+              <p className='text-white'>
                 Cím: Szigligeti utca 5, Hódmezővásárhely, 6800
               </p>
 
@@ -86,7 +86,7 @@ export default function FooterSection() {
                 href={LINKS.notino}
                 target='_blank'
                 rel='noreferrer'
-                className='inline-flex rounded-full border border-white bg-white px-5 sm:px-6 py-2 text-[#5f3434] hover:bg-[#f5e6e1] hover:border-[#f5e6e1] transition-colors'
+                className='inline-flex rounded-full border border-white bg-white px-5 sm:px-6 py-2 text-brown hover:bg-[#f5e6e1] hover:border-[#f5e6e1] transition-colors'
               >
                 Időpontfoglalás
               </a>

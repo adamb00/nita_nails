@@ -14,12 +14,12 @@ export default function HeaderSection() {
       <div className='absolute inset-0 flex'>
         <div className='h-full w-1/2 text-white font-vani font-bold text-right mt-3 sm:mt-4 px-2 text-2xl sm:text-3xl md:text-4xl'>
           <span
-            className={`inline-block border-b-4 border-white pb-0 leading-none transition-all duration-1200 ease-out ${mounted ? 'translate-x-0 opacity-100' : '-translate-x-24 opacity-0'}`}
+            className={`inline-block border-b-4 border-white  pb-0 leading-none transition-all duration-1200 ease-out ${mounted ? 'translate-x-0 opacity-100' : '-translate-x-24 opacity-0'}`}
           >
             Nita
           </span>
         </div>
-        <div className='h-full w-1/2 text-[#bf6d6c] font-vani font-bold px-2 py-6 sm:py-8 md:py-10 text-2xl sm:text-3xl md:text-4xl'>
+        <div className='h-full w-1/2 text-pink  font-vani font-bold px-2 py-6 sm:py-8 md:py-10 text-2xl sm:text-3xl md:text-4xl'>
           <span
             className={`inline-block transition-all duration-1200 ease-out delay-200 ${mounted ? 'translate-x-0 opacity-100' : 'translate-x-24 opacity-0'}`}
           >

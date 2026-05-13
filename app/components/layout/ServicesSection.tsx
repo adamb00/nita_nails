@@ -36,7 +36,9 @@ function formatPrice(price: ServicePrice) {
 
 export default function ServicesSection() {
   const categories = servicesData as ServiceCategory[];
-  const [activeCategory, setActiveCategory] = useState(categories[0]?.category ?? '');
+  const [activeCategory, setActiveCategory] = useState(
+    categories[0]?.category ?? '',
+  );
   const [animationRun, setAnimationRun] = useState(0);
 
   useEffect(() => {
@@ -44,15 +46,20 @@ export default function ServicesSection() {
   }, [activeCategory]);
 
   const active = useMemo(
-    () => categories.find((c) => c.category === activeCategory) ?? categories[0],
-    [categories, activeCategory]
+    () =>
+      categories.find((c) => c.category === activeCategory) ?? categories[0],
+    [categories, activeCategory],
   );
 
   return (
-    <section className='relative -mt-px h-screen w-screen snap-start shrink-0 overflow-y-auto bg-linear-to-b to-[#bf6d6c] from-[#f7ebe7] px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12'>
+    <section className='relative -mt-px h-screen w-screen snap-start shrink-0 overflow-y-auto bg-linear-to-b to-pastel from-[white] px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12'>
       <div className='mx-auto w-full max-w-7xl'>
-        <p className='font-vani text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-[0.22em] text-[#8a6666]'>Nita Nails</p>
-        <h2 className='mt-2 font-vani text-3xl sm:text-4xl md:text-6xl text-[#553535] leading-tight'>Szolgáltatások</h2>
+        <p className='font-vani text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-[0.22em] text-brown'>
+          Nita Nails
+        </p>
+        <h2 className='mt-2 font-vani text-3xl sm:text-4xl md:text-6xl text-[#553535] leading-tight'>
+          Szolgáltatások
+        </h2>
 
         <div className='mt-5 sm:mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4'>
           <div className='flex gap-2 sm:gap-3 overflow-x-auto pb-2'>
@@ -64,8 +71,8 @@ export default function ServicesSection() {
                   onClick={() => setActiveCategory(category.category)}
                   className={`shrink-0 rounded-full border px-3 sm:px-4 py-2 text-xs sm:text-sm transition-colors ${
                     isActive
-                      ? 'border-[#5f3434] bg-[#5f3434] text-white'
-                      : 'border-[#cfb8af] bg-white text-[#6f4a4a] hover:border-[#5f3434]'
+                      ? 'border-brown bg-brown text-white'
+                      : 'border-pastel bg-white text-brown hover:border-brown'
                   }`}
                 >
                   {category.category}
@@ -78,7 +85,7 @@ export default function ServicesSection() {
             href={BOOKING_URL}
             target='_blank'
             rel='noreferrer'
-            className='hidden md:inline-flex shrink-0 rounded-full border border-[#5f3434] bg-[#5f3434] px-5 py-2 text-white transition-colors hover:bg-[#bf6d6c] hover:border-[#bf6d6c]'
+            className='hidden md:inline-flex shrink-0 rounded-full border border-brown bg-brown px-5 py-2 text-white transition-colors hover:bg-pastel hover:border-pastel'
           >
             Időpontfoglalás
           </a>
@@ -94,12 +101,18 @@ export default function ServicesSection() {
                 animation: `fadeUpSoft 0.9s ease-out ${index * 110}ms both`,
               }}
             >
-              <p className='text-[#3f2424] font-semibold text-base sm:text-lg leading-snug'>{service.name}</p>
+              <p className='text-[#3f2424] font-semibold text-base sm:text-lg leading-snug'>
+                {service.name}
+              </p>
 
               {service.description ? (
-                <p className='mt-2 text-[#795858] text-xs sm:text-sm leading-5 sm:leading-6'>{service.description}</p>
+                <p className='mt-2 text-[#795858] text-xs sm:text-sm leading-5 sm:leading-6'>
+                  {service.description}
+                </p>
               ) : (
-                <p className='mt-2 text-[#a18484] text-xs sm:text-sm leading-5 sm:leading-6'>Leírás hamarosan.</p>
+                <p className='mt-2 text-[#a18484] text-xs sm:text-sm leading-5 sm:leading-6'>
+                  Leírás hamarosan.
+                </p>
               )}
 
               <div className='mt-3 sm:mt-4 flex items-center justify-between gap-3'>
@@ -118,7 +131,7 @@ export default function ServicesSection() {
           href={BOOKING_URL}
           target='_blank'
           rel='noreferrer'
-          className='mt-5 sm:mt-6 inline-flex md:hidden rounded-full border border-[#5f3434] bg-[#5f3434] px-5 py-2 text-white transition-colors hover:bg-[#bf6d6c] hover:border-[#bf6d6c]'
+          className='mt-5 sm:mt-6 inline-flex md:hidden rounded-full border border-brown bg-brown px-5 py-2 text-white transition-colors hover:bg-pastel hover:border-pastel'
         >
           Időpontfoglalás
         </a>

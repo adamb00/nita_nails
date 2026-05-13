@@ -4,18 +4,11 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --primary: #e83e8c;
-  --primary-dark: #d63384;
-  --primary-light: #f062a6;
-
-  --background-corall: #f6a6a6;
-  --background-peach: #f9c6a3;
-  --background-pink: #f3a7d1;
-  --background-mint: #aee1d6;
-  --background-purple: #c9b6e4;
-  --background-bg: #eacdc5;
-  --grey: #e6e6e6;
-  --grey-light: #dddddd;
+  --pink: #f59ad4;
+  --blue: #8fe3e0;
+  --yellow: #f7e97b;
+  --pastel: #f5b38f;
+  --brown: #5f3434;
 }
 
 @theme inline {
@@ -36,6 +29,12 @@
   --font-sweety: var(--font-sweety-local);
   --font-desire: var(--font-desire-local);
   --font-vani: var(--font-vani-local);
+
+  --color-pink: var(--pink);
+  --color-blue: var(--blue);
+  --color-yellow: var(--yellow);
+  --color-pastel: var(--pastel);
+  --color-brown: var(--brown);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -46,10 +46,9 @@ export default function AboutMeSection() {
   return (
     <section
       ref={ref}
-      className='relative h-screen w-full snap-start shrink-0 overflow-y-auto'
+      className='relative h-screen w-full max-w-8xl snap-start shrink-0 overflow-y-auto'
     >
-
-      <div className='relative z-10 mx-auto grid min-h-full w-full max-w-6xl grid-cols-1 gap-6 sm:gap-8 md:gap-10 px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-16 md:grid-cols-5'>
+      <div className='relative z-10 mx-auto grid min-h-full w-full max-w-7xl grid-cols-1 gap-6 sm:gap-8 md:gap-10 px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-16 md:grid-cols-5'>
         <div
           className={`relative md:col-span-2 transition-all duration-1000 ease-out ${visible ? 'translate-y-0 opacity-100' : 'translate-y-14 opacity-0'}`}
         >
@@ -68,7 +67,7 @@ export default function AboutMeSection() {
               {services.map((service) => (
                 <span
                   key={service}
-                  className='rounded-full border border-[#d7a8a2] bg-white/70 px-2.5 sm:px-3 py-1 text-[11px] sm:text-xs md:text-sm text-[#5f3434]'
+                  className='rounded-full border border-brown bg-white/70 px-2.5 sm:px-3 py-1 text-[11px] sm:text-xs md:text-sm text-brown'
                 >
                   {service}
                 </span>
@@ -78,7 +77,7 @@ export default function AboutMeSection() {
         </div>
 
         <div
-          className={`md:col-span-3 text-[#4a2a2a] transition-all duration-1000 ease-out delay-200 ${visible ? 'translate-y-0 opacity-100' : 'translate-y-14 opacity-0'}`}
+          className={`md:col-span-3 text-[#4a2a2a] max-h-fit  px-8 rounded-xl transition-all duration-1000 ease-out delay-200 ${visible ? 'translate-y-0 opacity-100' : 'translate-y-14 opacity-0'}`}
         >
           <p className='font-vani text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-[0.22em] text-[#8f6060]'>
             Rólam
@@ -103,7 +102,7 @@ export default function AboutMeSection() {
             href={BOOKING_URL}
             target='_blank'
             rel='noreferrer'
-            className='mt-6 sm:mt-8 inline-flex w-fit rounded-full border border-[#5f3434] bg-[#5f3434] px-5 sm:px-6 py-2 text-sm sm:text-base text-white transition-colors hover:bg-[#bf6d6c] hover:border-[#bf6d6c]'
+            className='mt-6 sm:mt-8 inline-flex w-fit rounded-full border border-white bg-pink px-5 sm:px-6 py-2 text-sm sm:text-base text-white transition-colors hover:bg-yellow hover:border-brown hover:text-brown'
           >
             Időpontfoglalás
           </a>
