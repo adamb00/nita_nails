@@ -52,8 +52,11 @@ export default function ServicesSection() {
   );
 
   return (
-    <section className='relative -mt-px h-screen w-screen snap-start shrink-0 overflow-y-auto bg-linear-to-b to-pastel from-[white] px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12'>
-      <div className='mx-auto w-full max-w-7xl'>
+    <section
+      id='services'
+      className='relative overflow-hidden -mt-px min-h-screen w-full md:h-screen snap-start shrink-0 overflow-y-visible md:overflow-y-auto bg-linear-to-b to-pastel from-[white]  via-yellow px-4 sm:px-6 md:px-10 py-6 sm:py-10 md:py-12'
+    >
+      <div className='mx-auto w-full max-w-7xl flex min-h-full flex-col items-start justify-start'>
         <p className='font-vani text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-[0.22em] text-brown'>
           Nita Nails
         </p>
@@ -61,8 +64,8 @@ export default function ServicesSection() {
           Szolgáltatások
         </h2>
 
-        <div className='mt-5 sm:mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4'>
-          <div className='flex gap-2 sm:gap-3 overflow-x-auto pb-2'>
+        <div className='mt-5 sm:mt-6 flex flex-col sm:flex-row sm:items-center  sm:justify-between gap-3 sm:gap-4'>
+          <div className='flex gap-2 sm:gap-3 overflow-x-scroll pb-2'>
             {categories.map((category) => {
               const isActive = category.category === active?.category;
               return (
@@ -91,7 +94,7 @@ export default function ServicesSection() {
           </a>
         </div>
 
-        <div className='mt-5 sm:mt-7 grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2 xl:grid-cols-3'>
+        <div className='mt-5 sm:mt-7 grid w-full grid-cols-1 gap-4 sm:gap-5 lg:grid-cols-2 2xl:grid-cols-3'>
           {active?.services.map((service, index) => (
             <article
               key={`${active.category}-${service.name}-${animationRun}`}

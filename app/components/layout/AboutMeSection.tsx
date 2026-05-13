@@ -46,9 +46,10 @@ export default function AboutMeSection() {
   return (
     <section
       ref={ref}
+      id='about-me'
       className='relative h-screen w-full max-w-8xl snap-start shrink-0 overflow-y-auto'
     >
-      <div className='relative z-10 mx-auto grid min-h-full w-full max-w-7xl grid-cols-1 gap-6 sm:gap-8 md:gap-10 px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-16 md:grid-cols-5'>
+      <div className='relative z-10 mx-auto grid min-h-full w-full max-w-7xl grid-cols-1 gap-6 sm:gap-8 md:gap-10 px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-16 md:grid-cols-5 items-center justify-center'>
         <div
           className={`relative md:col-span-2 transition-all duration-1000 ease-out ${visible ? 'translate-y-0 opacity-100' : 'translate-y-14 opacity-0'}`}
         >

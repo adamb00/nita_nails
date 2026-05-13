@@ -21,7 +21,7 @@ const BANNER_IMAGES = [
 
 export default function FooterSection() {
   return (
-    <footer className='-mt-px h-screen w-screen snap-start shrink-0 overflow-y-auto bg-linear-to-b from-pastel to-brown px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12 text-white'>
+    <footer className='-mt-px h-screen w-full snap-start shrink-0 overflow-y-auto bg-linear-to-b from-pastel to-brown px-4 sm:px-6 md:px-10 py-8 sm:py-10 md:py-12 text-white'>
       <div className='mx-auto w-full max-w-7xl'>
         <div className='mb-6 sm:mb-8 rounded-2xl  shadow-xl p-3 sm:p-4 md:p-5'>
           <p className='mb-3 text-[10px] sm:text-xs uppercase tracking-[0.18em] text-white'>
