@@ -21,9 +21,39 @@ const vani = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nita-nails.vercel.app'),
   title: 'Nita Nails',
   description:
     'Nita Nails - Professzionális műköröm szalon Hódmezővásárhelyen. Széles körű szolgáltatások, egyedi dizájn és kiváló minőség várja vendégeinket. Foglalj időpontot még ma!',
+  openGraph: {
+    title: 'Nita Nails',
+    description:
+      'Nita Nails - Professzionális műköröm szalon Hódmezővásárhelyen. Széles körű szolgáltatások, egyedi dizájn és kiváló minőség várja vendégeinket. Foglalj időpontot még ma!',
+    url: 'https://nita-nails.vercel.app',
+    siteName: 'Nita Nails',
+    images: [
+      {
+        url: '/nita_nails.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Nita Nails',
+      },
+    ],
+    locale: 'hu_HU',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nita Nails',
+    description:
+      'Nita Nails - Professzionális műköröm szalon Hódmezővásárhelyen. Széles körű szolgáltatások, egyedi dizájn és kiváló minőség várja vendégeinket. Foglalj időpontot még ma!',
+    images: [
+      {
+        url: '/nita_nails.jpg',
+        alt: 'Nita Nails',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
